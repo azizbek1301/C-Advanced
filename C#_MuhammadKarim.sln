@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34701.34
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp", "ConsoleApp\ConsoleApp.csproj", "{58699A26-483A-42E6-AE9E-9F85FD79A3FD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp", "ConsoleApp\ConsoleApp.csproj", "{58699A26-483A-42E6-AE9E-9F85FD79A3FD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ref,out", "Ref,out", "{333F6D68-F9D8-4E1E-B803-E73DF828F01F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ref_out_amliyot", "Ref_out_amliyot\Ref_out_amliyot.csproj", "{60018F57-097E-4E09-BB93-A96AA0B75194}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +19,16 @@ Global
 		{58699A26-483A-42E6-AE9E-9F85FD79A3FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{58699A26-483A-42E6-AE9E-9F85FD79A3FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{58699A26-483A-42E6-AE9E-9F85FD79A3FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60018F57-097E-4E09-BB93-A96AA0B75194}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60018F57-097E-4E09-BB93-A96AA0B75194}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60018F57-097E-4E09-BB93-A96AA0B75194}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60018F57-097E-4E09-BB93-A96AA0B75194}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{60018F57-097E-4E09-BB93-A96AA0B75194} = {333F6D68-F9D8-4E1E-B803-E73DF828F01F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5F217AD3-B182-49C9-8F97-FC294A250A65}
