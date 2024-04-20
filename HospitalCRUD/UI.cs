@@ -49,8 +49,9 @@ public class UI
                         Console.WriteLine("Enter Id");
                         users.Update(long.Parse(Console.ReadLine()));
                         break;
-
-
+                    default:
+                        Console.WriteLine("Noto'gri son kiritildi");
+                        break;
 
                 }
 
