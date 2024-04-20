@@ -6,10 +6,9 @@ using System.Threading.Tasks;
 
 namespace OOPTutorial
 {
-    public interface IUserService
+    public class User:Auiditable
     {
-        void DislayName();
-        void DisplayEmail();
-
+        
+        public string Name { get; set; }
     }
 }

@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace OOPTutorial
 {
-    public interface IUserService
+    public enum UserRole
     {
-        void DislayName();
-        void DisplayEmail();
-
+        User=1,
+        Admin,
+        CEO,
+        Marketolog
     }
 }
