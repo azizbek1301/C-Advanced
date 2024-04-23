@@ -9,5 +9,16 @@ namespace OOP_interfacelar_._
         public DateTime DateOfBirth { get; set; }
         public Gender Gender { get; set; }
 
+        private decimal _balance;
+        public decimal Balance 
+        { 
+            get
+            {
+                return _balance;
+            }
+            set { _balance = value; }
+        }
+       
+
     }
 }
