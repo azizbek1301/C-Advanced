@@ -16,7 +16,7 @@ namespace OOP_interfacelar_._
             {
                 return _balance;
             }
-            set { _balance = value; }
+            set { _balance = value/2; }
         }
        
 

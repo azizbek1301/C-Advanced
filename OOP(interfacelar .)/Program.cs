@@ -1,10 +1,5 @@
-﻿using OOP_interfacelar_._.Services;
+﻿
 
+Dictionary<int,string> weekdays=new Dictionary<int,string>();
 
-var fish = new Animal();
-
-fish.Swim();
-
-var tiger = new Animal();
-
-tiger.Hunt();
+weekdays.Add(1, "Dushanba");
