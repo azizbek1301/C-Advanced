@@ -25,7 +25,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IEnumerable_List", "IEnumer
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MarketCRM", "MarketCRM\MarketCRM.csproj", "{3980C173-D2C5-4A41-83C8-588EBB5EA08A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtensionsMethods", "ExtensionsMethods\ExtensionsMethods.csproj", "{EF66C090-A15B-4373-9EA5-C643F56D0B42}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExtensionsMethods", "ExtensionsMethods\ExtensionsMethods.csproj", "{EF66C090-A15B-4373-9EA5-C643F56D0B42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegate(Amaliyot)", "Delegate(Amaliyot)\Delegate(Amaliyot).csproj", "{5F0216B5-1452-4AEE-8A26-65A4B56C1A4D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -73,6 +75,10 @@ Global
 		{EF66C090-A15B-4373-9EA5-C643F56D0B42}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EF66C090-A15B-4373-9EA5-C643F56D0B42}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EF66C090-A15B-4373-9EA5-C643F56D0B42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F0216B5-1452-4AEE-8A26-65A4B56C1A4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F0216B5-1452-4AEE-8A26-65A4B56C1A4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F0216B5-1452-4AEE-8A26-65A4B56C1A4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F0216B5-1452-4AEE-8A26-65A4B56C1A4D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
